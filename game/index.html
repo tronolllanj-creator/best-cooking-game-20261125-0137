@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sizzle & Serve</title>
+  <style>
+    html, body { margin:0; padding:0; background:#12100d; color:#efe6d0; font-family:system-ui, sans-serif; overflow:hidden; height:100%; }
+    #game { display:block; width:100%; height:100%; max-width:1280px; max-height:720px; margin:auto; background:#000; }
+    #status { position:fixed; left:8px; bottom:8px; font-size:12px; color:#9a8f7a; pointer-events:none; z-index:10; }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="status"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
